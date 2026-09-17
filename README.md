@@ -126,6 +126,6 @@ reviewer from 30 confirmations and 11 disputes to 39 and 3.
 
 ## AI assistance
 
-Claude (Anthropic) was used for code review and debugging. At runtime
+Claude (Anthropic) was used for code review, assistant and debugging. At runtime
 the pipeline calls `gpt-oss-120b` via Cerebras for extraction, adjudication and
 review. See `DECISION_LOG.md`.
