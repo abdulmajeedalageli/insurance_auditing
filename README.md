@@ -109,7 +109,7 @@ contains unresolved lines, the patient-days that are fully resolved are still
 priced and compared.
 
 **Confidence** is fitted to the observed Hospital 1 calibration table and
-capped at 0.97. Invoices carrying an unresolved line are distinguished from
+capped at 0.95. Invoices carrying an unresolved line are distinguished from
 those priced in full, which is where all three Hospital 1 errors fall.
 
 ## Prompts
