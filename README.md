@@ -117,7 +117,7 @@ those priced in full, which is where all three Hospital 1 errors fall.
 | file | purpose |
 |---|---|
 | `extract_v1.md` | contract window -> service terms |
-| `adjudicate_v1.md`, `adjudicate_v2.md` | unresolved description -> service or CANNOT_DETERMINE |
+| `adjudicate_v2.md` | unresolved description -> service or CANNOT_DETERMINE |
 | `review_v1.md`, `review_v2.md` | confirm or dispute a finding |
 
 `review_v2` supplies the contract header and explains that volume discounts run
