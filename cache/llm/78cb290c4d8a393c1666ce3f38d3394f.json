@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line 2 billed Inpatient Vascular Diagnostic Imaging at 6362\u00a2 per item (half the contract rate of 12725\u00a2) violates the contract rate, and Line 1 uses a wrong unit_basis (per_item instead of the contract's per_procedure) despite the correct price, so the contract supports the pricing mismatch finding."}

@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract shows that Extended Geriatric Wound Care should be billed per_item, but the line uses per_unit_dispensed, so the 'wrong_unit_basis' part is supported. However, the contract provides no information about whether invoice ID INV-H1-000457 is a duplicate, so we cannot confirm the 'duplicate_invoice_id' claim."}

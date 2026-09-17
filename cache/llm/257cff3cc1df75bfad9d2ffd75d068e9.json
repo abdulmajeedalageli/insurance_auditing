@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract confirms a wrong unit basis for line 12 (service should be per_day, billed per_night) and a pricing mismatch for line 5 (billed rate exceeds contract rate with no applicable discount). However, there is insufficient information to verify the cross_invoice_duplicate claim."}

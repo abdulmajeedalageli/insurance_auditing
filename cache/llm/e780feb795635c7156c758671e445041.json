@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H1-L00369-12 maps to Standard Otolaryngologic Radiotherapy Fraction, which per contract uses unit_basis 'per_item', but the invoice billed it as 'per_test'"}

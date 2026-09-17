@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract header provides the valid contract number, but the invoice data does not include the contract number to compare, so contract_number_mismatch cannot be verified. Likewise, there is no information about prior use of invoice ID INV-H3-000148, so duplicate_invoice_id cannot be confirmed or disputed."}

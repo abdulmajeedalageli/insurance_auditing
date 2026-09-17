@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H3-L00456-04 applied the wrong volume discount; prior utilisation 174 qualifies for the 12% discount (threshold 60), but the billed total reflects a 30% discount, causing the pricing mismatch."}

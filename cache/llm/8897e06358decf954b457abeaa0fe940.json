@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00007-08 has an invalid service_date '2024-13-05' (malformed_service_date) and line H2-L00007-03 uses unit_basis 'per_hour' while the contract specifies 'per_night' for Supervised Rheumatologic Critical Care Occupancy (wrong_unit_basis)."}

@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00393-10 maps to no contract service; the contract's rates list contains no service with a per_hour rate of 8500 cents, so the unknown_service finding is supported."}

@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line 10 is a pricing mismatch because Intensive Palliative Ward Bed Occupancy is contracted at 136,725 cents per day with no applicable discount, uplift, or cap, so 6 days should be 820,350 cents rather than the billed 410,172 cents. Line 5 also uses per_day instead of the contracted per_unit_dispensed basis."}

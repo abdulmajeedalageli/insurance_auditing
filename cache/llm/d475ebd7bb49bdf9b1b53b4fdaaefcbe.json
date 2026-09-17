@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "The contract does not define an 'unknown_service' rule; unknown services are not listed among the supported finding types, so the engine's finding is not supported by the contract."}

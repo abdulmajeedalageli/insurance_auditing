@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "The engine incorrectly applied a line_total_arithmetic error \u2013 for every line, billed_line_total equals quantity\u202f\u00d7\u202fbilled_unit_price, so there is no arithmetic mismatch; only the pricing mismatch for the Intermittent Pulmonary Rehabilitation Programme is valid."}

@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "service_date 2023-06-09 on line H1-L00148-02 falls before contract term_start 2024-01-01, violating the service_date_out_of_window rule"}

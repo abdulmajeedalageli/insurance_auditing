@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract prohibits reusing an invoice ID; the engine flagged duplicate_invoice_id, which is a valid rule and no evidence contradicts it."}

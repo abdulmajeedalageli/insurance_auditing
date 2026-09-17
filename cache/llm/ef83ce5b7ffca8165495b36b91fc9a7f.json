@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line 5's billed total is arithmetically wrong (3 x 34,475 = 103,425, not 104,425), and line 1 should be 377,750 x 0.88 = 332,420 rather than 581,735. These support the pricing mismatch and line-total arithmetic findings."}

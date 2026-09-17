@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract forbids duplicate services across invoices, but the provided data contains no information about other invoices or patient identifiers to verify whether the same service on the same date appears elsewhere. Without that context, we cannot confirm or dispute the cross_invoice_duplicate finding."}

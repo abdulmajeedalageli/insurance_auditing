@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract sets a daily cap of 6 for Supervised Neurological Imaging Interpretation, but 8 procedures were billed on 2025-08-04, so only 6 x 77,200 = 463,200 is billable, making the expected total 3,817,154 instead of 3,971,554."}

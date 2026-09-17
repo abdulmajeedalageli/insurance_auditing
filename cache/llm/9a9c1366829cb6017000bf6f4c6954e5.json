@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00849-14 has mapped_service null and bills 8 hours at 8500 cents, a per-hour price that matches no contract rate or permitted volume-discounted rate, so the invoice contains an uncontracted service."}

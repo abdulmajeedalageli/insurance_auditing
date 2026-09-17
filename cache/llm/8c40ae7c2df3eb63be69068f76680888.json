@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "Line H3-L00482-06 (Intermittent Dermatologic Physiotherapy Session) should apply the 30% volume discount (threshold 180) not the 12% discount; the contract's volume_discounts list gives 0.3 for prior utilisation \u2265180, so the billed unit price 24,623\u202fcents is correct and the expected total using 0.12 is erroneous"}

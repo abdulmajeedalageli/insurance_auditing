@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line 2 has a malformed_service_date ('not-a-date'), line 5 has a line_total_arithmetic error (3\u202f\u00d7\u202f29725 \u2260 96675), causing the invoice_total_mismatch (billed total 1,712,345\u202fcents does not equal sum of line totals 1,711,345\u202fcents)."}

@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00150-01 has an invalid service_date ('not-a-date'), violating the malformed_service_date rule; Line H2-L00150-04 bills unit_basis as 'per_hour' but the contract specifies 'per_item' for Focused Pulmonary Pharmaceutical Dispensing, violating the wrong_unit_basis rule."}

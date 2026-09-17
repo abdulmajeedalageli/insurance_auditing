@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "pricing_mismatch: Inpatient Vascular Diagnostic Imaging billed at 6362\u00a2 per_item, but contract rate is 12725\u00a2 per_item and no discount rule applies, so the billed line total (38172\u00a2) is incorrect."}

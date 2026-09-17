@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00955-01 has service_date 2025-02-30, which is not a real calendar date, so the malformed_service_date finding is supported; the billed total is unchanged."}

@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract disallows the applied discounts: volume_discount_0.3 on Standard Otolaryngologic Radiotherapy Fraction (quantity 8 < 60 threshold) and uplift on Continuous Musculoskeletal Wound Care (quantity 4 < 8 threshold) are invalid, and Routine Infectious Critical Care Occupancy has no uplift rule yet is billed at an inflated rate."}

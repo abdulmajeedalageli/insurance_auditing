@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00111-11 has mapped_service null, i.e., a service not defined in the contract rates, so the invoice includes an unknown service not supported by the contract"}

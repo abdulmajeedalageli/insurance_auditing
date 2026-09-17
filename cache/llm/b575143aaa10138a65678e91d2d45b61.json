@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "Line 2 cites an invalid unit_basis (contract defines per_item, billed as per_unit_dispensed) and line 17 applies an exclusion that does not exist in the invoice (no Standard Endocrine Endoscopic Procedure within 7 days), so the pricing mismatch is not supported by the contract."}

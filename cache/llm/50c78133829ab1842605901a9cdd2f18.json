@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line 13 applied the wrong volume discount: prior utilisation 321 exceeds the 300 threshold, so a 0.25 discount should apply (unit price 7538\u00a2), but the invoice used 8543\u00a2 (0.15 discount), causing a 4020\u00a2 overcharge."}

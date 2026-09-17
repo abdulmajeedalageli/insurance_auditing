@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The malformed_service_date is valid (2024-00-17 is not a real date) and the pricing_mismatch is valid (threshold premium for Ambulatory Renal Case Conference was not applied), but duplicate_invoice_id cannot be verified without external invoice history."}

@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract supports the flag: line 1 is dated 2023-09-19, before the 2024-01-01 term start, and line 10 is excluded because it falls within the 7-day window of the 2024-03-25 trigger, making the billed total 261,250 cents too high."}

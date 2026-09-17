@@ -1,0 +1,110 @@
+{
+  "amb": [
+    "ambulatory"
+  ],
+  "adv": [
+    "advanced"
+  ],
+  "asst": [
+    "assisted"
+  ],
+  "comp": [
+    "comprehensive"
+  ],
+  "cont": [
+    "continuous"
+  ],
+  "emerg": [
+    "emergency"
+  ],
+  "ext": [
+    "extended"
+  ],
+  "inpt": [
+    "inpatient"
+  ],
+  "outpt": [
+    "outpatient"
+  ],
+  "postop": [
+    "postoperative"
+  ],
+  "preop": [
+    "preoperative"
+  ],
+  "std": [
+    "standard"
+  ],
+  "spclst": [
+    "specialist"
+  ],
+  "supv": [
+    "supervised"
+  ],
+  "intens": [
+    "intensive"
+  ],
+  "obs": [
+    "observation",
+    "obstetric"
+  ],
+  "cr": [
+    "care",
+    "critical"
+  ],
+  "int": [
+    "intensive",
+    "intermittent"
+  ],
+  "rm": [
+    "room"
+  ],
+  "pnl": [
+    "panel"
+  ],
+  "cs": [
+    "case"
+  ],
+  "img": [
+    "imaging"
+  ],
+  "vst": [
+    "visit"
+  ],
+  "hm": [
+    "home"
+  ],
+  "wd": [
+    "ward"
+  ],
+  "tm": [
+    "time"
+  ],
+  "plng": [
+    "planning"
+  ],
+  "wnd": [
+    "wound"
+  ],
+  "svc": [
+    "service"
+  ],
+  "ent": [
+    "otolaryngologic"
+  ],
+  "rtn": [
+    "routine"
+  ],
+  "msk": [
+    "musculoskeletal"
+  ],
+  "bd": [
+    "bed"
+  ],
+  "thtr": [
+    "theatre"
+  ],
+  "gi": [
+    "gastrointestinal"
+  ]
+}

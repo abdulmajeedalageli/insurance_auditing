@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H3-L00284-04 uses per_item but contract defines per_procedure, causing a unit\u2011basis and pricing mismatch; Line H3-L00284-08 line total is arithmetic incorrect (6\u202f\u00d7\u202f41000\u202fc = 246000\u202fc but billed 221000\u202fc)."}

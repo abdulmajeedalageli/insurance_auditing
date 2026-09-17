@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H1-L00571-03 has a billed_line_total_cents of 19605, but quantity 1 \u00d7 billed_unit_price_cents 12105 = 12105, so the line total arithmetic is incorrect."}

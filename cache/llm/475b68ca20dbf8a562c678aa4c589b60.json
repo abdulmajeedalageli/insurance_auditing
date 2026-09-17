@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "Pricing mismatch is valid because the Ambulatory Haematology Nutritional Support line exceeds the daily threshold (18 > 12) and should have a 0.4 uplift, but the billed total lacks it. However, the invoice date is not provided, so we cannot confirm the service_date_after_invoice_date issue."}

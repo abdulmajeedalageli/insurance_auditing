@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The line totals sum to 134,581 cents, not the billed 159,581 cents, so the invoice_total_mismatch/pricing_mismatch finding is supported; line 5 also bills per_test where the contract unit_basis is per_visit."}

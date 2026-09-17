@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H1-L00717-10 billed unit_basis 'per_hour' but the contract defines Routine Dermatologic Transfusion Service with unit_basis 'per_unit_dispensed', so the unit basis is wrong."}

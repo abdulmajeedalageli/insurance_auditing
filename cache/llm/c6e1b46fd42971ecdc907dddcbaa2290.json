@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00345-08 maps to no contract service; the contract's rates list does not contain a service matching the billed per_hour entry, so the invoice includes an unknown service."}

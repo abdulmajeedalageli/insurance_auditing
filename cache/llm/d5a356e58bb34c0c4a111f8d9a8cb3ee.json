@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract specifies a 25% volume discount for Comprehensive Infectious Nursing Observation when quantity \u226580. The engine failed to apply this discount to line H1-L00811-02 (quantity 2), leaving the billed total at 339,650\u202fcents instead of the discounted 254,738\u202fcents, causing the overall overcharge."}

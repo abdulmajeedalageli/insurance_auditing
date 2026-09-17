@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract imposes a uniqueness requirement on invoice IDs; duplicate_invoice_id is prohibited, so the finding is supported."}

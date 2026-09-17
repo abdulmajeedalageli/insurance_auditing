@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "line_total_arithmetic error on line H2-L00171-08: quantity 1 \u00d7 unit price 377750\u202fcents should equal 377750\u202fcents, but billed line total is 477750\u202fcents, causing the invoice_total_mismatch."}

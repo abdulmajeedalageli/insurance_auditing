@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "Unit basis for Preoperative Cardiac Discharge Planning is wrong (contract per_hour vs billed per_procedure) and line 11 has an unknown service, both supported by the contract; however, without the invoice date we cannot verify the service_date_after_invoice_date claim."}

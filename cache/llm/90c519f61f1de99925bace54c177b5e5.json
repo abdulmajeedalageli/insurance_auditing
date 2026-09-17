@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Lines H2-L00965-04 and H2-L00965-06 have mapped_service null and a per_hour unit basis, but the supplied contract rates contain no per-hour service or rate for them, so the unknown_service finding is supported."}

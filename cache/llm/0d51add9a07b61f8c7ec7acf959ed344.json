@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "Service dates out of contract window (line 2) and pricing mismatches (lines 1 and 5) are supported, but the contract does not provide the invoice date, so we cannot confirm the service_date_after_invoice_date flag."}

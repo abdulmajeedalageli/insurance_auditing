@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract rate table sets Intensive Palliative Ward Bed Occupancy to per_day, but line H2-L00835-01 is billed per_visit. The amount is unchanged because 5 x 136725 = 683625, so this is a non-amount unit-basis mismatch."}

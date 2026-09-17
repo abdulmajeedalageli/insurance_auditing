@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "line H3-L00450-12 (Specialist Paediatric Biopsy Procedure) exceeds daily_qty_threshold 8 but the 15% threshold premium was not applied; billed unit price 14225 should be 16359, causing the total shortfall."}

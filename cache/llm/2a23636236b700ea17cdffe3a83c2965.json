@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "contract_number_mismatch is misapplied \u2013 the invoice provides no contract number field to compare against the contract header, so this rule cannot be satisfied"}

@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H1-L00036-17 has service_date '2025-06-31', which is an invalid calendar date (June has only 30 days), so the malformed_service_date finding is supported."}

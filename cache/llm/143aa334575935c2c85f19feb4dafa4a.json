@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract (agreement) prohibits reuse of an invoice ID; duplicate_invoice_id is a disallowed condition regardless of service details."}

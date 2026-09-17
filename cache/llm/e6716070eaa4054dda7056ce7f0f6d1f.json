@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Under the unknown_service rule, each billed line must map to a contract service, but lines H2-L00879-01, H2-L00879-16, and H2-L00879-19 have mapped_service null and unit prices 20800, 12750, and 8500 cents that appear in no supplied rate."}

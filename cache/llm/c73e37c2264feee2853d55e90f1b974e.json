@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H1-L00811-07 has a mapped_service of null, i.e., an unknown service not listed in the contract rates, so the invoice includes a service the contract does not support; this also explains the overall pricing mismatch (billed total exceeds expected by 84,912\u202fcents)."}

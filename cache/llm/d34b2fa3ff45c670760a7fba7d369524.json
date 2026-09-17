@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "Line 2 has an invalid date (31/02/2024), so the malformed_service_date finding is supported. However, there is no information about prior invoices or patient identifiers to verify a cross\u2011invoice duplicate, so that part cannot be confirmed or disputed."}

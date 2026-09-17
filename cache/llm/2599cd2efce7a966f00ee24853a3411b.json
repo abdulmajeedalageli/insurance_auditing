@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Ambulatory Renal Case Conference is defined with unit_basis per_hour in the contract, but the invoice billed it per_item"}

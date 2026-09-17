@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "The engine applied the 'threshold_premium' to Specialist Neurological Recovery Room Occupancy but used an uplift of 62.4% (unit price 25025\u00a2) instead of the contract\u2011specified 30% uplift (expected unit price 20020\u00a2), causing the line total to be 350,350\u00a2 rather than the correct 280,280\u00a2."}

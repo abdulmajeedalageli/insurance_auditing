@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Standard Otolaryngologic Radiotherapy Fraction is defined with unit_basis per_item, but line H1-L00369-12 bills it as per_test, violating the contract's unit basis"}

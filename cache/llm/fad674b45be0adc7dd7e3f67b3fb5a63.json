@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L01020-04 has mapped_service null and bills 7 per_hour units at 8,500c for 59,500c, but the contract rate table contains no service with that unit basis/rate. Therefore the unknown_service finding is supported even though the invoice total arithmetic matches."}

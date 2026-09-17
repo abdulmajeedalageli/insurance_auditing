@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00800-16 has service_date 2023-02-07, which is before contract_header term_start 2024-01-01, so the service_date_out_of_window finding is supported."}

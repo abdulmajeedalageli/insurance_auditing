@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00447-12 has service_date 2023-02-03, which is before contract term_start 2024-01-01 (service_date_out_of_window). Line H2-L00447-03 has no mapped_service and the service is not listed in contract rates (unknown_service)."}

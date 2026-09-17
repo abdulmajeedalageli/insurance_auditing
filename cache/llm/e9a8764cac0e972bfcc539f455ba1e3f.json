@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H1-L00571-03: quantity 1 \u00d7 unit price 12105\u202fcents = 12105\u202fcents, but billed line total is 19605\u202fcents (volume discount applied to unit price but not to line total)."}

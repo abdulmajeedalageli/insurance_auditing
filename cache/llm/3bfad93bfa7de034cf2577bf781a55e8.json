@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H1-L00410-07 maps to Advanced Cardiac Recovery Room Occupancy, which the contract rates per_hour, yet the invoice billed it per_day, violating the unit_basis requirement."}

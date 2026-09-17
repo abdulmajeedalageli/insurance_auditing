@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "Pricing mismatch is supported: line 9 incorrectly applied a 10% volume discount despite quantity 3 (<120) and line 16 should be excluded per the exclusion rule, so the billed total is too high. However, the duplicate_invoice_id claim cannot be verified from the provided data alone."}

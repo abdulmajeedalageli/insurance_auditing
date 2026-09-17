@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Pricing mismatch is supported: the contract defines a bundle for Extended Palliative Laboratory Panel and Inpatient Ophthalmic Radiotherapy Fraction with rates 15175c and 21500c, but the invoice billed 17850c and 25300c, overcharging by 2675c + 11400c = 14075c. Contract number mismatch cannot be verified from the provided data."}

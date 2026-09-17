@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "volume_discount misapplied on line H2-L00110-08: prior utilisation >300 should give a 25% discount, reducing unit price from 10050\u00a2 to 7538\u00a2 (line total 90,456\u00a2), but billed unit price is 8,543\u00a2 (line total 102,516\u00a2), causing a 12,060\u00a2 overcharge"}

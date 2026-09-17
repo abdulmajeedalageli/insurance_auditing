@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00744-05 fails line_total_arithmetic because 6 \u00d7 141675 = 850050, not the billed 842550. Line H2-L00744-08 also has no supported nonbusiness uplift on Thursday 2025-05-01, so 3 \u00d7 78075 = 234225, not 269358, making the billed total 2170400 inconsistent with the expected 2142767."}

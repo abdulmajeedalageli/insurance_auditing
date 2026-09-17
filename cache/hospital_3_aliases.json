@@ -1,0 +1,104 @@
+{
+  "amb": [
+    "ambulatory"
+  ],
+  "adv": [
+    "advanced"
+  ],
+  "asst": [
+    "assisted"
+  ],
+  "comp": [
+    "comprehensive"
+  ],
+  "cont": [
+    "continuous"
+  ],
+  "emerg": [
+    "emergency"
+  ],
+  "ext": [
+    "extended"
+  ],
+  "inpt": [
+    "inpatient"
+  ],
+  "outpt": [
+    "outpatient"
+  ],
+  "postop": [
+    "postoperative"
+  ],
+  "preop": [
+    "preoperative"
+  ],
+  "std": [
+    "standard"
+  ],
+  "spclst": [
+    "specialist"
+  ],
+  "supv": [
+    "supervised"
+  ],
+  "intens": [
+    "intensive"
+  ],
+  "obs": [
+    "observation",
+    "obstetric"
+  ],
+  "cr": [
+    "care",
+    "critical"
+  ],
+  "int": [
+    "intensive",
+    "intermittent"
+  ],
+  "plng": [
+    "planning"
+  ],
+  "msk": [
+    "musculoskeletal"
+  ],
+  "rm": [
+    "room"
+  ],
+  "img": [
+    "imaging"
+  ],
+  "cs": [
+    "case"
+  ],
+  "spcm": [
+    "specimen"
+  ],
+  "svc": [
+    "service"
+  ],
+  "wnd": [
+    "wound"
+  ],
+  "pnl": [
+    "panel"
+  ],
+  "ent": [
+    "otolaryngologic"
+  ],
+  "thtr": [
+    "theatre"
+  ],
+  "gi": [
+    "gastrointestinal"
+  ],
+  "tm": [
+    "time"
+  ],
+  "rtn": [
+    "routine"
+  ],
+  "anly": [
+    "analysis"
+  ]
+}

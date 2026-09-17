@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "threshold_premium: Preoperative Geriatric Ventilation Support line has quantity 13 > daily threshold 8, uplift 0.2 required but billed line total 89,375 lacks the 20% uplift (expected 107,250), causing a 17,875 cent shortfall in the invoice total"}

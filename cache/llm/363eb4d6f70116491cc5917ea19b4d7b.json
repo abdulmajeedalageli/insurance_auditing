@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "service_date_out_of_window: line H3-L00834-05 uses 2022-12-01, before term_start 2024-01-01; pricing_mismatch: line H3-L00834-01 billed unit price 14087 vs contract rate 8050 with no premium, causing line total 70435 vs expected 40250"}

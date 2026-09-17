@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Rule 3 supports malformed_service_date because line H2-L00519-01 uses 2025-06-31, which is not a real calendar date since June has only 30 days."}

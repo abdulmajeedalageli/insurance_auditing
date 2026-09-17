@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract specifies Intermittent Pulmonary Rehabilitation Programme on a per_visit basis (rate 13450), but the invoice billed it per_hour at 12105, violating the unit basis rule; also Extended Palliative Laboratory Panel should total 35700 (2\u202f\u00d7\u202f17850) but was billed 28200, creating a pricing mismatch."}

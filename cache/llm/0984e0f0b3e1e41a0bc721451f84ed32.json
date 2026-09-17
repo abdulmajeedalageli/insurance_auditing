@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract specifies a per_item unit basis for Comprehensive Orthopaedic Wound Care but the invoice uses per_night, and it caps Inpatient Gastrointestinal Pharmaceutical Dispensing at 12 units per day yet bills 15 units; both violations cause the pricing mismatch."}

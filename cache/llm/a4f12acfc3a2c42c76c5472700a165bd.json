@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "Pricing mismatch is confirmed: the contract allows a 30% uplift (unit price should be 15400\u202f\u00d7\u202f1.3\u202f=\u202f20020\u202fcents) but the invoice uses 25025\u202fcents. However, cross\u2011invoice duplicate cannot be verified without data from other invoices."}

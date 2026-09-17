@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H3-L00706-03 uses per_day instead of the contract's per_procedure unit_basis, and line H3-L00706-19 bills 699475c versus the contract rate of 399700c with no applicable discount or bundle."}

@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract prohibits the same service for the same patient on the same date appearing on multiple invoices, but the provided data lacks patient identifiers or any reference to other invoices, so we cannot confirm whether a cross\u2011invoice duplicate actually exists."}

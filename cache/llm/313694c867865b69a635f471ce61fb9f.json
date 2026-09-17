@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "The invoice_total_mismatch is valid (line totals sum to 1,906,268\u202fcents, not the billed 1,881,268\u202fcents), but the pricing_mismatch is unsupported because every line's quantity \u00d7 unit price equals the billed line total, and the contract_number_mismatch cannot be assessed as the invoice does not contain a contract number field."}

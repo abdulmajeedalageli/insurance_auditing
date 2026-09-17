@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The cross_invoice_duplicate rule requires the same service for the same patient on the same date on two invoices, but no patient identifier or second invoice is supplied to verify any of the 2025-10-03 services."}

@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "service_date_out_of_window is confirmed for line H1-L00179-06 (date 2026-07-24 is beyond term_end 2025-12-31), but service_date_after_invoice_date cannot be evaluated because the invoice date is not provided."}

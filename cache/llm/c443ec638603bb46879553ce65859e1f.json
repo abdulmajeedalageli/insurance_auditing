@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract (as per the generic audit rules) requires each invoice ID to be unique; the finding of duplicate_invoice_id therefore conflicts with the contract terms."}

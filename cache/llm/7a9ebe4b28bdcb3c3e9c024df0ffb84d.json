@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H3-L00837-02 has an invalid date (31/02/2024) \u2013 malformed_service_date. Line H3-L00837-04 uses unit_basis 'per_item' but contract specifies 'per_visit' for Outpatient Pulmonary Transport Service \u2013 wrong_unit_basis."}

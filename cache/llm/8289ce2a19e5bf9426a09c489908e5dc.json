@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The 25% threshold premium for Preoperative Neurological Isolation Room Occupancy applies only when the patient-day aggregate exceeds the daily_qty_threshold of 6; this line has 6 nights, so the billed 213,094c unit/1,278,564c total should be 170,475c/1,022,850c, creating the 255,714c overcharge."}

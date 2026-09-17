@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "Cannot determine duplication without external invoice history; contract requires unique invoice IDs but no evidence is provided here."}

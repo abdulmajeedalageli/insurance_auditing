@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L01001-14 has mapped_service null and no matching contract rate, so the billed 23 x 8500 = 195500 is for an unknown service."}

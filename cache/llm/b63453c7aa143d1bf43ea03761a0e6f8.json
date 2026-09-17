@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "Unit basis mismatch for line H3-L00277-06 (Extended Infectious Telemetry Monitoring billed per_procedure but contract specifies per_day). However, service_date_after_invoice_date cannot be evaluated without the invoice date, and cross_invoice_duplicate cannot be assessed without patient or prior invoice data."}

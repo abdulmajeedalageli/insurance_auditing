@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00531-03 has mapped_service null and bills 9 hours at 8,500 cents for 76,500 cents, which matches no service or rate in the supplied contract rate table, so the unknown_service finding is supported."}

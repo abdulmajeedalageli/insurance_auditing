@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "The contract provides a 12% volume discount for Routine Neurological Imaging Interpretation (threshold 120). Applying the discount reduces the unit price from 11375\u00a2 to 10010\u00a2, matching the billed line total of 60,060\u00a2. The expected total used the undiscounted rate, so the pricing_mismatch finding is unsupported."}

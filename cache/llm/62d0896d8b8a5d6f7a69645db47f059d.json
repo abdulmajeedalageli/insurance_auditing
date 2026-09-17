@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "service_date_out_of_window is confirmed (2026-09-26 exceeds term_end 2025-12-31), but without the invoice date we cannot verify the service_date_after_invoice_date violation."}

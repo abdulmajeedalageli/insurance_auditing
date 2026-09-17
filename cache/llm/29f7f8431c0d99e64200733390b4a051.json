@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract rules define service_date_after_invoice_date but the invoice date is not provided in the data, so we cannot determine whether any service date occurs after the invoice date."}

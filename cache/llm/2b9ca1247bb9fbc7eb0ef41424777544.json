@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The invoice data does not include a contract number to compare against the contract header, nor any patient identifiers to assess cross\u2011invoice duplication, so the engine's contract_number_mismatch and cross_invoice_duplicate findings cannot be validated."}

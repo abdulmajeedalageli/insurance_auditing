@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H1-L00410-07 bills Advanced Cardiac Recovery Room Occupancy with unit_basis 'per_day' while the contract defines its unit_basis as 'per_hour', violating the contract terms."}

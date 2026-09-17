@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "unknown_service is confirmed (line 8 service not in contract) and pricing_mismatch is confirmed (Emergency Renal Infusion Therapy on Sunday missing 12% uplift), but cross_invoice_duplicate cannot be verified without data on other invoices."}

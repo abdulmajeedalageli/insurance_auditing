@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Extended Geriatric Wound Care is billed with unit_basis 'per_unit_dispensed' while the contract defines its unit_basis as 'per_item', so the wrong_unit_basis finding is supported (duplicate_invoice_id cannot be verified from the given data)."}

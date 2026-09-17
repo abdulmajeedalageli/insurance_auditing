@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The billed invoice total (3,222,650\u202fc) does not equal the sum of the line totals (3,197,650\u202fc), violating the invoice_total_mismatch rule by 25,000\u202fc."}

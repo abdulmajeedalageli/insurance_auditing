@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "volume_discount: prior utilisation 165 exceeds threshold 60 (0.12) but not 180 (0.3); billed unit price 24623 reflects a 0.3 discount, should be 30954 (0.12), causing a $126.62 shortfall"}

@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The invoice_total_mismatch rule is supported because the billed line totals sum to 1,575,124 cents, not the invoice total of 1,600,124 cents."}

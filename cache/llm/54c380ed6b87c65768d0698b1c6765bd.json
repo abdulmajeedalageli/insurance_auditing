@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "The bundle adjustment was applied, but the contract's bundle rule requires both services on the same patient\u2011day; the invoice data provides no patient identifier, so the bundled rates (5,675\u202fc for Focused Obstetric Nutritional Support and 363,250\u202fc for Extended Musculoskeletal Endoscopic Procedure) are not supported."}

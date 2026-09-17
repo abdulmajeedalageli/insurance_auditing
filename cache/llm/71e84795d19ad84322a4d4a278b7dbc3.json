@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract prohibits reusing an invoice ID, but the provided data does not include any prior invoice to verify whether INV-H3-000148 was already used; insufficient information to confirm or dispute the duplicate_invoice_id finding."}

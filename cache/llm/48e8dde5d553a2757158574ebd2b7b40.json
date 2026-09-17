@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract includes a duplicate_invoice_id rule, but we lack information about prior invoices to determine whether INV-H2-000290 has been reused"}

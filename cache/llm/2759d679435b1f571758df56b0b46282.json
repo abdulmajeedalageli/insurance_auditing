@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line 11 applied a 30% volume discount (billed 49246) despite prior utilisation 178 only meeting the 12% discount threshold; the contract permits only a 12% discount, so the expected line total 61908 is correct and the pricing mismatch is valid."}

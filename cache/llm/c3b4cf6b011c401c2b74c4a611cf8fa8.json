@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "volume_discount misapplied: prior utilisation 161 qualifies for 12% discount, but billed unit price 24,623 reflects a 30% discount, making line total 49,246 instead of the expected 61,908 and causing a total shortfall of 12,662 cents"}

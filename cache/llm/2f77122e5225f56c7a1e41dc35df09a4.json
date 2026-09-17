@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The contract defines Focused Cardiac Dialysis Session with unit_basis per_procedure, but line H2-L00951-04 is billed as per_test. The mismatch does not change the amount, so the equal billed and expected totals are consistent with a non-amount unit-basis finding."}

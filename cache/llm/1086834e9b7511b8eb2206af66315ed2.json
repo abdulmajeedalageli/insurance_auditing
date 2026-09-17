@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "The contract includes a volume discount for Intermittent Dermatologic Physiotherapy Session (12% discount after 60 cumulative units). The billed line total reflects this discount (61908\u202fcents vs 70350\u202fcents), so the overall invoice total is correct; the engine omitted the volume discount rule."}

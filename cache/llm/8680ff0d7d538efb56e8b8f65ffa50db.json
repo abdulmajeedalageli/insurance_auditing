@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line 1 should have the 25% volume discount because prior utilisation 901 exceeds the 300 threshold, making the expected total 13,856 cents instead of the billed 41,568 cents, a 27,712-cent overcharge; line 8 also uses per_hour_per_item instead of the contract's per_visit."}

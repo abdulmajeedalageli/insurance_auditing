@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "Duplicate invoice ID is a structural issue that cannot be verified from the provided invoice alone; external data on existing invoice IDs is required to confirm the finding."}

@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract header provides the expected contract number, but the invoice's contract number is not supplied, so a contract_number_mismatch cannot be confirmed. Likewise, no information about prior invoice IDs is given, making it impossible to verify a duplicate_invoice_id."}

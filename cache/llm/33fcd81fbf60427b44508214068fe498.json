@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Emergency Vascular Biopsy Procedure (line H3-L00367-07) is defined with unit_basis 'per_procedure' in the contract, but was billed with unit_basis 'per_visit', violating the contract's unit basis rule."}

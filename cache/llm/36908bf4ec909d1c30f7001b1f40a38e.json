@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Lines H2-L00585-04 and H2-L00585-18 have mapped_service null and unit prices of 8500c/hour and 10010c/test, which do not match any service in the supplied contract rate schedule, so the unknown_service finding is supported."}

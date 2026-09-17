@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "The billed line totals sum to 4,980,169 cents, not the invoice total of 4,972,669 cents, so the invoice_total_mismatch finding is supported. Line H2-L00509-06 is also billed at 20,456 cents per day, which is neither the 33,275-cent base rate nor the 27,275-cent bundle rate."}

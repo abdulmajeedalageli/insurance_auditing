@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L01109-08 bills Intermittent Orthopaedic Recovery Room Occupancy at 22050c/hour for 5 hours (110250c), but the contract rate is 12600c/hour with no applicable uplift, so it should be 63000c. Line H2-L01109-01 also ignores the 10% volume discount, billing 20532c instead of 16426c."}

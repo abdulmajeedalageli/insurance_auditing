@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The invoice data provided does not include a contract number field to compare against the contract_header's contract_number, so we cannot determine whether a contract_number_mismatch exists."}

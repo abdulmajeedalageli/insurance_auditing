@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L01044-04 bills Supervised Rheumatologic Critical Care Occupancy as per_procedure, but the contract unit_basis is per_night, so the wrong_unit_basis finding is supported without changing the billed amount."}

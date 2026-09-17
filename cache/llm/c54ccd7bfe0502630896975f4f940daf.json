@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00496-02 has mapped_service null and no matching entry in the contract rates table; its 22 per_hour units at 8,500 cents, totaling 187,000 cents, are not supported by any listed service."}

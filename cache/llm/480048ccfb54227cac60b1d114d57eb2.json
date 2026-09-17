@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00561-13 has service_date 31/02/2024, which is not a real calendar date, so the malformed_service_date rule is supported."}

@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H1-L00219-09 has service_date \"2024-00-17\", which is not a valid ISO date (month 00), confirming the malformed_service_date finding."}

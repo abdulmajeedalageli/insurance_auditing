@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Routine Dermatologic Transfusion Service is billed with unit_basis 'per_hour' but the contract defines its unit_basis as 'per_unit_dispensed', so the invoice has a wrong unit basis."}

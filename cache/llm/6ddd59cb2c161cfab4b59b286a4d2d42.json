@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H3-L00351-04 has service_date \"not-a-date\", which is not a real calendar date, triggering the malformed_service_date rule."}

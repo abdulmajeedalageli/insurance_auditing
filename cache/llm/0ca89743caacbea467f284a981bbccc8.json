@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Line H2-L00248-15 has service_date 2023-01-15, which is before the contract term_start 2024-01-01, violating the service_date_out_of_window rule."}

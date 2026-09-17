@@ -1,0 +1,1 @@
+{"verdict": "DISPUTE", "reason": "line_total_arithmetic misapplied \u2013 for lines H2-L00176-01 and H2-L00176-07 the billed line total equals quantity\u202f\u00d7\u202funit price (2\u202f\u00d7\u202f73625\u202f=\u202f147250 and 2\u202f\u00d7\u202f19325\u202f=\u202f38650), so there is no arithmetic error despite the engine\u2019s expected totals based on contract rates"}

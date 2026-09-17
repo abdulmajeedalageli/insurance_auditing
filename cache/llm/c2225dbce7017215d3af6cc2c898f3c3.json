@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract provides no date\u2011window or invoice\u2011date constraints, so we cannot confirm the 'service_date_out_of_window' rule. Additionally, the invoice date is not supplied, preventing verification of the 'service_date_after_invoice_date' condition."}

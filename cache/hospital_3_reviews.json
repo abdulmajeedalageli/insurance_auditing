@@ -1,0 +1,322 @@
+{
+  "INV-H3-000006": {
+    "verdict": "CONFIRM",
+    "reason": "invoice_total_mismatch: sum of line totals is 5,833,766\u202fcents but billed invoice total is 5,808,766\u202fcents (difference 25,000\u202fcents)"
+  },
+  "INV-H3-000017": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00017-10 has service_date '2025-02-30', which is not a valid calendar date, satisfying the malformed_service_date rule."
+  },
+  "INV-H3-000021": {
+    "verdict": "CONFIRM",
+    "reason": "pricing_mismatch: billed unit price 80275c for Intensive Otolaryngologic Anaesthesia Administration exceeds contract rate 68025c (effective before 2025-01-01), causing a line total discrepancy of 12250c"
+  },
+  "INV-H3-000029": {
+    "verdict": "CONFIRM",
+    "reason": "Intermittent Dermatologic Physiotherapy Session is billed per_unit_dispensed but contract specifies per_visit; Specialist Paediatric Biopsy Procedure and Outpatient Renal Specimen Analysis use unit prices (16359 and 17595) that differ from contract rates (14225 and 20700), causing pricing mismatches"
+  },
+  "INV-H3-000038": {
+    "verdict": "CONFIRM",
+    "reason": "invoice_total_mismatch: billed total 3550097\u00a2 does not equal sum of line totals 3575097\u00a2 (difference 25000\u00a2)"
+  },
+  "INV-H3-000052": {
+    "verdict": "DISPUTE",
+    "reason": "The exclusion for Preoperative Cardiac Discharge Planning was misapplied; the contract requires a trigger service (Extended Dermatologic Infusion Therapy) within 30 days, which is absent, so the line should be billed at its rate, not zero."
+  },
+  "INV-H3-000064": {
+    "verdict": "DISPUTE",
+    "reason": "The malformed_service_date finding is valid (31/02/2024 is not a real date), but the pricing_mismatch is not supported: the Postoperative Cardiac Ward Bed Occupancy line uses the contract's 15% volume discount (base rate 134325\u202fc \u00d7\u202f0.85 = 114176\u202fc), so the billed unit price and line total are correc"
+  },
+  "INV-H3-000066": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00066-07 should include the 10% nonbusiness uplift for a Sunday (75,150\u202fc \u2192 82,665\u202fc) and line H3-L00066-08 is billed at 30,954\u202fc, which is below the contract rate of 35,175\u202fc with no discount rule applicable; both errors cause the pricing mismatch."
+  },
+  "INV-H3-000067": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00067-02 exceeds the daily cap of 4 for Preoperative Psychiatric Radiotherapy Fraction; contract daily_caps limit billing to 4 units, but 9 were billed, causing the pricing mismatch."
+  },
+  "INV-H3-000085": {
+    "verdict": "UNSURE",
+    "reason": "Invoice total mismatch is confirmed (billed 1,342,319\u202fc vs expected 1,373,975\u202fc), but duplicate invoice ID cannot be verified without external data, and the pricing mismatch for Intermittent Dermatologic Physiotherapy Session may be due to an undisclosed volume discount, so the contract does not pro"
+  },
+  "INV-H3-000093": {
+    "verdict": "CONFIRM",
+    "reason": "The invoice overbills Routine Psychiatric Consultation (11 units billed vs cap of 8, excess 3\u202f\u00d7\u202f282,975\u202fc = 848,925\u202fc) and charges Emergency Oncology Biopsy Procedure at full rate despite quantity 4 being below the daily threshold (should be 4\u202f\u00d7\u202f20,375\u202fc = 81,500\u202fc, not 89,000\u202fc), causing a total in"
+  },
+  "INV-H3-000128": {
+    "verdict": "UNSURE",
+    "reason": "The invoice data provided does not include a contract number field to compare against the contract_header's contract_number, so we cannot determine whether a contract_number_mismatch exists."
+  },
+  "INV-H3-000140": {
+    "verdict": "CONFIRM",
+    "reason": "service_date_out_of_window: line 7 date 2022-12-31 is before term_start 2024-01-01; pricing_mismatch: Bedside Urologic Ventilation Support line should receive 12% volume discount (prior utilisation 123 > 80) but billed total uses full rate; invoice_total_mismatch: sum of billed line totals (1,740,44"
+  },
+  "INV-H3-000148": {
+    "verdict": "UNSURE",
+    "reason": "The contract header provides the valid contract number, but the invoice data does not include the contract number to compare, so contract_number_mismatch cannot be verified. Likewise, there is no information about prior use of invoice ID INV-H3-000148, so duplicate_invoice_id cannot be confirmed or "
+  },
+  "INV-H3-000177": {
+    "verdict": "DISPUTE",
+    "reason": "The contract includes volume discounts for Intermittent Dermatologic Physiotherapy Session (12% discount after 60 prior units). The billed unit price of 30,954\u202fcents reflects this discount, whereas the expected total used the full rate of 35,175\u202fcents. Since discounts are based on cumulative prior u"
+  },
+  "INV-H3-000184": {
+    "verdict": "DISPUTE",
+    "reason": "The contract includes a volume discount for Intermittent Dermatologic Physiotherapy Session (12% discount after 60 cumulative units). The billed line total reflects this discount (61908\u202fcents vs 70350\u202fcents), so the overall invoice total is correct; the engine omitted the volume discount rule."
+  },
+  "INV-H3-000221": {
+    "verdict": "UNSURE",
+    "reason": "Pricing mismatch is confirmed because the Bedside Urologic Ventilation Support line did not apply the required 12% volume discount, but the service_date_after_invoice_date issue cannot be evaluated as the invoice date is not provided."
+  },
+  "INV-H3-000226": {
+    "verdict": "CONFIRM",
+    "reason": "The contract requires a threshold premium for Bedside Metabolic Infusion Therapy (15\u202f>\u202f12, uplift\u202f0.4) and prohibits using the amended rate for Ambulatory Otolaryngologic Imaging Interpretation before 2025\u201101\u201101; both errors cause the billed total to differ from the contract\u2011based expected total."
+  },
+  "INV-H3-000236": {
+    "verdict": "CONFIRM",
+    "reason": "daily_caps: Bedside Vascular Critical Care Occupancy has a cap of 8 per day, but 13 units were billed (13\u202f\u00d7\u202f144425\u202fc = 1,877,525\u202fc) whereas only 8 units (8\u202f\u00d7\u202f144425\u202fc = 1,155,400\u202fc) are contractually billable"
+  },
+  "INV-H3-000262": {
+    "verdict": "CONFIRM",
+    "reason": "Intensive Immunologic Wound Care billed at 16593\u00a2 per item instead of contract rate 13275\u00a2; no premium, discount, or cap applies, so line total 149337\u00a2 is incorrect, causing the invoice total to exceed the expected 4772051\u00a2"
+  },
+  "INV-H3-000277": {
+    "verdict": "UNSURE",
+    "reason": "Unit basis mismatch for line H3-L00277-06 (Extended Infectious Telemetry Monitoring billed per_procedure but contract specifies per_day). However, service_date_after_invoice_date cannot be evaluated without the invoice date, and cross_invoice_duplicate cannot be assessed without patient or prior inv"
+  },
+  "INV-H3-000283": {
+    "verdict": "CONFIRM",
+    "reason": "Bundle rates were not applied for Inpatient Hepatic Biopsy Procedure (line 2) and Specialist Gastrointestinal Specimen Analysis (line 3), and Bedside Geriatric Telemetry Monitoring (line 7) was billed at double the contract rate, causing the total to exceed the contract\u2011derived amount."
+  },
+  "INV-H3-000284": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00284-04 uses per_item but contract defines per_procedure, causing a unit\u2011basis and pricing mismatch; Line H3-L00284-08 line total is arithmetic incorrect (6\u202f\u00d7\u202f41000\u202fc = 246000\u202fc but billed 221000\u202fc)."
+  },
+  "INV-H3-000324": {
+    "verdict": "CONFIRM",
+    "reason": "pricing_mismatch: bundled_rate should apply for Intermittent Gastrointestinal Endoscopic Procedure and Bedside Palliative Wound Care on 2025-06-23, but invoice used base rates, inflating the total by 82,950\u202fcents"
+  },
+  "INV-H3-000332": {
+    "verdict": "CONFIRM",
+    "reason": "malformed_service_date \u2013 line H3-L00332-07 has an impossible date 2024-13-05; pricing_mismatch \u2013 line H3-L00332-18 applies a nonbusiness uplift but bills unit price 82,666\u00a2 instead of the correct 41,333\u00a2 (base 37,575\u00a2 \u00d7 1.1)."
+  },
+  "INV-H3-000334": {
+    "verdict": "UNSURE",
+    "reason": "The malformed_service_date is valid (2024-00-17 is not a real date) and the pricing_mismatch is valid (threshold premium for Ambulatory Renal Case Conference was not applied), but duplicate_invoice_id cannot be verified without external invoice history."
+  },
+  "INV-H3-000340": {
+    "verdict": "UNSURE",
+    "reason": "The invoice data does not include a contract number to compare with the contract_header's contract_number, so we cannot confirm or dispute the contract_number_mismatch finding."
+  },
+  "INV-H3-000344": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00344-12 uses the amended rate of 3050c per_item, but the amendment is effective only from 2025-01-01; the service date 2024-10-04 falls under the original rate of 2575c, so the correct line total is 30,900c, not 36,600c, creating a 5,700c overcharge that the contract supports."
+  },
+  "INV-H3-000347": {
+    "verdict": "CONFIRM",
+    "reason": "The invoice breaches three contract rules: (1) Inpatient Metabolic Infusion Therapy is billed with unit_basis \"per_hour_per_item\" which is not defined (contract allows only per_hour); (2) Postoperative Rheumatologic Anaesthesia Administration applies a 20% uplift despite the service date (2024-10-02"
+  },
+  "INV-H3-000351": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00351-04 has service_date \"not-a-date\", which is not a real calendar date, triggering the malformed_service_date rule."
+  },
+  "INV-H3-000352": {
+    "verdict": "UNSURE",
+    "reason": "The contract does not provide any data about prior invoice IDs; without knowledge of other invoices we cannot confirm whether INV-H3-000352 is a duplicate, so the finding cannot be validated or disputed."
+  },
+  "INV-H3-000367": {
+    "verdict": "CONFIRM",
+    "reason": "Emergency Vascular Biopsy Procedure (line H3-L00367-07) is defined with unit_basis 'per_procedure' in the contract, but was billed with unit_basis 'per_visit', violating the contract's unit basis rule."
+  },
+  "INV-H3-000371": {
+    "verdict": "UNSURE",
+    "reason": "Line 3 service date is outside the contract term (2026-08-11 > 2025-12-31) and line 2 uses an incorrect unit basis (per_hour_per_item vs contract per_item), and line 4 line total arithmetic is incorrect (18\u202f\u00d7\u202f5675 should be 102,150 but billed 202,150). However, the finding also includes a service_da"
+  },
+  "INV-H3-000375": {
+    "verdict": "CONFIRM",
+    "reason": "Pricing mismatches on lines 02, 04, 08, and 15: nonbusiness uplifts for Postoperative Rheumatologic Anaesthesia Administration and Preoperative Gastrointestinal Radiotherapy Fraction were not applied, and unit prices for Focused Obstetric Nutritional Support and Bedside Oncology Case Conference are "
+  },
+  "INV-H3-000381": {
+    "verdict": "CONFIRM",
+    "reason": "pricing_mismatch confirmed: bundle 2 requires rates 363250c for Extended Musculoskeletal Endoscopic Procedure and 5675c for Focused Obstetric Nutritional Support (same date), reducing the total by 82,225\u202fcents to 1,794,275\u202fc, but the invoice billed 1,876,500\u202fc"
+  },
+  "INV-H3-000400": {
+    "verdict": "CONFIRM",
+    "reason": "Intermittent Dermatologic Physiotherapy Session: volume discount (12% for prior utilisation >60) yields expected line total 30,954\u202fcents, but billed line total is 24,623\u202fcents, violating the contract rate."
+  },
+  "INV-H3-000412": {
+    "verdict": "CONFIRM",
+    "reason": "volume_discount misapplied: prior utilisation 161 qualifies for 12% discount, but billed unit price 24,623 reflects a 30% discount, making line total 49,246 instead of the expected 61,908 and causing a total shortfall of 12,662 cents"
+  },
+  "INV-H3-000413": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00413-04 (Intermittent Dermatologic Physiotherapy Session) applied a 30% discount (unit price 24,623\u202fc) despite the contract volume discount being 12%; the correct discounted total should be 92,862\u202fc, not 73,869\u202fc, causing the overall pricing mismatch."
+  },
+  "INV-H3-000416": {
+    "verdict": "CONFIRM",
+    "reason": "volume_discount misapplied on Intermittent Dermatologic Physiotherapy Session: prior utilisation 163 qualifies for 12% discount (unit price 30954\u202fc, line total 61908\u202fc), but billed unit price 24623\u202fc reflects a 30% discount, undercharging by 12662\u202fc"
+  },
+  "INV-H3-000421": {
+    "verdict": "CONFIRM",
+    "reason": "volume_discount: prior utilisation 165 exceeds threshold 60 (0.12) but not 180 (0.3); billed unit price 24623 reflects a 0.3 discount, should be 30954 (0.12), causing a $126.62 shortfall"
+  },
+  "INV-H3-000425": {
+    "verdict": "CONFIRM",
+    "reason": "Ambulatory Renal Case Conference is defined with unit_basis per_hour in the contract, but the invoice billed it per_item"
+  },
+  "INV-H3-000427": {
+    "verdict": "CONFIRM",
+    "reason": "The contract requires a 15% non\u2011business uplift on line\u202f1 (Saturday) and a daily cap of 8 on line\u202f4, but the engine billed full amounts; it also applied a 30% volume discount on line\u202f12 instead of the 12% discount allowed for the prior utilisation level."
+  },
+  "INV-H3-000428": {
+    "verdict": "CONFIRM",
+    "reason": "For Intermittent Dermatologic Physiotherapy Session the contract allows only a 12% volume discount (prior utilisation 169/168 > 60), giving a unit price of 30,954\u202fc. The invoice billed 24,623\u202fc (\u224830% discount) on lines H3-L00428-01 and H3-L00428-13, resulting in a shortfall of 25,324\u202fc, so the prici"
+  },
+  "INV-H3-000435": {
+    "verdict": "CONFIRM",
+    "reason": "Line 15 (Intermittent Dermatologic Physiotherapy Session) should receive a 12% volume discount (prior utilisation 172 > 60, < 180), giving a line total of 30,954\u202fcents; the invoice billed 24,623\u202fcents (30% discount), undercharging by 6,331\u202fcents, so the pricing_mismatch is supported by the contract."
+  },
+  "INV-H3-000447": {
+    "verdict": "CONFIRM",
+    "reason": "Intermittent Dermatologic Physiotherapy Session: prior utilisation 173 exceeds the 60\u2011unit threshold (12% discount) but not the 180\u2011unit threshold (30% discount). Contract allows only a 12% discount, yet billed unit price 24,623 reflects a 30% discount, making the line total too low by 6,331 cents."
+  },
+  "INV-H3-000450": {
+    "verdict": "CONFIRM",
+    "reason": "line H3-L00450-12 (Specialist Paediatric Biopsy Procedure) exceeds daily_qty_threshold 8 but the 15% threshold premium was not applied; billed unit price 14225 should be 16359, causing the total shortfall."
+  },
+  "INV-H3-000453": {
+    "verdict": "CONFIRM",
+    "reason": "volume_discount misapplied on Intermittent Dermatologic Physiotherapy Session: prior utilisation 176 qualifies for 12% discount, but billed total reflects a 30% discount, undercharging by 12,662 cents"
+  },
+  "INV-H3-000456": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00456-04 applied the wrong volume discount; prior utilisation 174 qualifies for the 12% discount (threshold 60), but the billed total reflects a 30% discount, causing the pricing mismatch."
+  },
+  "INV-H3-000469": {
+    "verdict": "CONFIRM",
+    "reason": "Line 11 applied a 30% volume discount (billed 49246) despite prior utilisation 178 only meeting the 12% discount threshold; the contract permits only a 12% discount, so the expected line total 61908 is correct and the pricing mismatch is valid."
+  },
+  "INV-H3-000482": {
+    "verdict": "DISPUTE",
+    "reason": "Line H3-L00482-06 (Intermittent Dermatologic Physiotherapy Session) should apply the 30% volume discount (threshold 180) not the 12% discount; the contract's volume_discounts list gives 0.3 for prior utilisation \u2265180, so the billed unit price 24,623\u202fcents is correct and the expected total using 0.12"
+  },
+  "INV-H3-000511": {
+    "verdict": "UNSURE",
+    "reason": "Cannot assess service_date_after_invoice_date because the invoice date is not provided in the data"
+  },
+  "INV-H3-000516": {
+    "verdict": "CONFIRM",
+    "reason": "Two lines are mis\u2011priced: Routine Obstetric Diagnostic Imaging should have a 10% uplift (rate 26375\u202f\u00a2 \u2192 29013\u202f\u00a2) per nonbusiness_uplifts, but the expected total omitted it (184\u202f625\u202f\u00a2 vs billed 203\u202f091\u202f\u00a2); Inpatient Infectious Specimen Analysis should receive a 25% volume discount (rate 34\u202f775\u202f\u00a2 \u2192 26"
+  },
+  "INV-H3-000519": {
+    "verdict": "UNSURE",
+    "reason": "Unit basis for Preoperative Cardiac Discharge Planning is wrong (contract per_hour vs billed per_procedure) and line 11 has an unknown service, both supported by the contract; however, without the invoice date we cannot verify the service_date_after_invoice_date claim."
+  },
+  "INV-H3-000528": {
+    "verdict": "CONFIRM",
+    "reason": "Line 04 (Preoperative Gastrointestinal Radiotherapy Fraction) omitted the required 20% non\u2011business uplift for a Saturday service, and Line 09 (Bedside Urologic Ventilation Support) is billed with unit_basis per_hour contrary to the contract\u2019s per_day definition."
+  },
+  "INV-H3-000565": {
+    "verdict": "CONFIRM",
+    "reason": "The contract specifies a per_item unit basis for Comprehensive Orthopaedic Wound Care but the invoice uses per_night, and it caps Inpatient Gastrointestinal Pharmaceutical Dispensing at 12 units per day yet bills 15 units; both violations cause the pricing mismatch."
+  },
+  "INV-H3-000596": {
+    "verdict": "DISPUTE",
+    "reason": "Pricing mismatch on line H3-L00596-03: contract rate for Postoperative Pulmonary Consultation is 26,750\u202fcents per visit, no premium or uplift applies (service date 2025-03-19 is a Wednesday), yet the invoice billed 80,250\u202fcents per visit (3\u00d7 rate). The correct line total should be 53,500\u202fcents, maki"
+  },
+  "INV-H3-000600": {
+    "verdict": "CONFIRM",
+    "reason": "The Preoperative Psychiatric Home Visit line applied a nonbusiness uplift despite being on a Friday, and the Intensive Ophthalmic Laboratory Panel line should be excluded (zero total) due to the exclusion window, both violating contract rules."
+  },
+  "INV-H3-000619": {
+    "verdict": "UNSURE",
+    "reason": "The contract prohibits the same service for the same patient on the same date appearing on multiple invoices, but the provided data lacks patient identifiers or any reference to other invoices, so we cannot confirm whether a cross\u2011invoice duplicate actually exists."
+  },
+  "INV-H3-000659": {
+    "verdict": "CONFIRM",
+    "reason": "Line 19 (Standard Rheumatologic Imaging Interpretation) violates line_total_arithmetic: billed unit price 383550\u202fc but line total 358550\u202fc, a 25,000\u202fc shortfall with no applicable discount or premium rule."
+  },
+  "INV-H3-000676": {
+    "verdict": "DISPUTE",
+    "reason": "The bundle adjustment was applied, but the contract's bundle rule requires both services on the same patient\u2011day; the invoice data provides no patient identifier, so the bundled rates (5,675\u202fc for Focused Obstetric Nutritional Support and 363,250\u202fc for Extended Musculoskeletal Endoscopic Procedure) "
+  },
+  "INV-H3-000681": {
+    "verdict": "CONFIRM",
+    "reason": "service_date_out_of_window on line 1 (date 2022-12-10 outside contract term); wrong_unit_basis on line 2 (service billed per_item but contract specifies per_hour); line_total_arithmetic error on line 3 (billed total 262,556\u202fcents does not equal quantity\u202f12 \u00d7 discounted unit price\u202f23,963\u202fcents = 287,"
+  },
+  "INV-H3-000706": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00706-03 uses per_day instead of the contract's per_procedure unit_basis, and line H3-L00706-19 bills 699475c versus the contract rate of 399700c with no applicable discount or bundle."
+  },
+  "INV-H3-000716": {
+    "verdict": "CONFIRM",
+    "reason": "Standard Otolaryngologic Discharge Planning has a contract rate of 30600\u202fcents per visit; the invoice billed 38250\u202fcents per visit with no applicable premium, uplift, or discount rule, so the line total is incorrect."
+  },
+  "INV-H3-000717": {
+    "verdict": "CONFIRM",
+    "reason": "Lines H3-L00717-06 and H3-L00717-13 charge unit prices above the contract rates (20375 and 14225 cents respectively) without any applicable premium or discount; the contract does not support the higher billed totals, confirming the pricing_mismatch."
+  },
+  "INV-H3-000749": {
+    "verdict": "UNSURE",
+    "reason": "Service dates out of contract window (line 2) and pricing mismatches (lines 1 and 5) are supported, but the contract does not provide the invoice date, so we cannot confirm the service_date_after_invoice_date flag."
+  },
+  "INV-H3-000781": {
+    "verdict": "DISPUTE",
+    "reason": "The contract does not specify a contract number field to compare, so the contract_number_mismatch claim is unsupported; the unit basis error for Postoperative Pulmonary Consultation is valid, but the overall finding includes a misapplied rule."
+  },
+  "INV-H3-000782": {
+    "verdict": "UNSURE",
+    "reason": "Cannot determine if any service date is after the invoice date because the invoice date is not provided in the data"
+  },
+  "INV-H3-000787": {
+    "verdict": "UNSURE",
+    "reason": "Cannot determine if any service_date is after the invoice date because the invoice date is not provided in the data."
+  },
+  "INV-H3-000788": {
+    "verdict": "CONFIRM",
+    "reason": "Bundle rates were not applied: Intermittent Gastrointestinal Endoscopic Procedure should use 235000c (2\u00d7235000=470000) not 276475c (2\u00d7276475=552950), and Bedside Palliative Wound Care should use 12025c (2\u00d712025=24050) not 14150c (2\u00d714150=28300), resulting in an overcharge of 87,200 cents."
+  },
+  "INV-H3-000789": {
+    "verdict": "CONFIRM",
+    "reason": "Line 3 total is wrong (1\u202f\u00d7\u202f37575\u202fc \u2260 62575\u202fc); Line 8 uses an incorrect unit price (bundled rate should be 2925\u202fc, not 3656\u202fc, so line total should be 35100\u202fc); Line 11 violates the exclusion window (Bedside Cardiac Recovery Room Occupancy within 14\u202fdays of Specialist Dermatologic Infusion Therapy m"
+  },
+  "INV-H3-000794": {
+    "verdict": "CONFIRM",
+    "reason": "Bundled rates were not applied for Intermittent Gastrointestinal Endoscopic Procedure (should be 235000c) and Bedside Palliative Wound Care (should be 12025c per visit), and the unit basis for Continuous Immunologic Critical Care Occupancy is incorrect (contract only allows per_hour, not per_procedu"
+  },
+  "INV-H3-000816": {
+    "verdict": "CONFIRM",
+    "reason": "invoice_total_mismatch is valid because the billed total (2,623,469\u00a2) differs from the sum of the line totals (2,622,469\u00a2) by 1,000\u00a2"
+  },
+  "INV-H3-000817": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00817-06 omitted the nonbusiness uplift of 0.1 for a Saturday service; the contract specifies a 10% uplift for Postoperative Otolaryngologic Rehabilitation Programme on weekends, so the billed unit price should be 162,663\u202fc (6\u202f\u00d7\u202f162,663\u202fc\u202f=\u202f975,978\u202fc) instead of 147,875\u202fc."
+  },
+  "INV-H3-000834": {
+    "verdict": "CONFIRM",
+    "reason": "service_date_out_of_window: line H3-L00834-05 uses 2022-12-01, before term_start 2024-01-01; pricing_mismatch: line H3-L00834-01 billed unit price 14087 vs contract rate 8050 with no premium, causing line total 70435 vs expected 40250"
+  },
+  "INV-H3-000837": {
+    "verdict": "CONFIRM",
+    "reason": "Line H3-L00837-02 has an invalid date (31/02/2024) \u2013 malformed_service_date. Line H3-L00837-04 uses unit_basis 'per_item' but contract specifies 'per_visit' for Outpatient Pulmonary Transport Service \u2013 wrong_unit_basis."
+  },
+  "INV-H3-000842": {
+    "verdict": "DISPUTE",
+    "reason": "service_date_out_of_window is valid (line 3 date 2023-06-14 outside term), but pricing_mismatch is not supported \u2013 the volume discount was correctly applied (6\u202f\u00d7\u202f82675\u202fc = 496050\u202fc, 25% discount yields 372038\u202fc, the 2\u2011cent difference is a rounding variance). The cross_invoice_duplicate claim cannot "
+  },
+  "INV-H3-000879": {
+    "verdict": "UNSURE",
+    "reason": "service_date_out_of_window is confirmed (2026-09-26 exceeds term_end 2025-12-31), but without the invoice date we cannot verify the service_date_after_invoice_date violation."
+  },
+  "INV-H3-000925": {
+    "verdict": "CONFIRM",
+    "reason": "The contract specifies Intermittent Infectious Theatre Time as per_hour, but the invoice billed it per_day; Intensive Ophthalmic Laboratory Panel should use the amended rate of 39725\u202fc (not 41825\u202fc); and the bundled rates for Focused Neurological Physiotherapy Session (9800\u202fc) and Elective Pulmonary"
+  },
+  "INV-H3-000934": {
+    "verdict": "UNSURE",
+    "reason": "The unit basis for line H3-L00934-03 is incorrect (contract expects per_hour, billed per_night) and the pricing reflects that error, so the 'wrong_unit_basis' and related 'pricing_mismatch' are supported. However, the contract does not provide the invoice date, so we cannot determine whether the ser"
+  },
+  "INV-H3-000935": {
+    "verdict": "UNSURE",
+    "reason": "Line 2 has an invalid date (31/02/2024), so the malformed_service_date finding is supported. However, there is no information about prior invoices or patient identifiers to verify a cross\u2011invoice duplicate, so that part cannot be confirmed or disputed."
+  }
+}

@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "Lines H2-L00458-11 and H2-L00458-12 have no mapped_service, yet the contract's rates list does not contain those services; therefore the invoice includes unknown services, which the contract does not support."}

@@ -1,0 +1,1 @@
+{"verdict": "UNSURE", "reason": "The contract requires invoice IDs to be unique, but no information is provided about prior invoices to determine whether INV-H1-000457 has been used before; therefore the duplicate_invoice_id finding cannot be confirmed or disputed."}

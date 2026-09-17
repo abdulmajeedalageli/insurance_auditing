@@ -1,0 +1,1 @@
+{"verdict": "CONFIRM", "reason": "volume_discount: line H1-L00458-03 should have 10% discount applied (prior utilisation 497 > threshold 60), reducing total from 676,950 to 609,258; billed line total omitted the discount, overcharging by 67,692 cents"}
