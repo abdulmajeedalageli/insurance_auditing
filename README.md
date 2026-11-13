@@ -124,8 +124,7 @@ those priced in full, which is where all three Hospital 1 errors fall.
 on cumulative prior utilisation. Measured on Hospital 1, that change moved the
 reviewer from 30 confirmations and 11 disputes to 39 and 3.
 
-## AI assistance
+## Runtime model
 
-Claude (Anthropic) was used for code review, assistant and debugging. At runtime
-the pipeline calls `gpt-oss-120b` via Cerebras for extraction, adjudication and
+The pipeline calls `gpt-oss-120b` via Cerebras for extraction, adjudication and
 review. See `DECISION_LOG.md`.

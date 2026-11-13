@@ -94,9 +94,8 @@ categories to 100%.
   multipliers, currently no-ops. H4 states that adjustments are cumulative and
   cross-referenced, which may not fit the fixed order here.
 
-## AI assistance
+## Runtime model
 
-Claude (Anthropic) was used for code review and debugging. At runtime the
-pipeline calls `gpt-oss-120b` via Cerebras for extraction (always),
+The pipeline calls `gpt-oss-120b` via Cerebras for extraction (always),
 adjudication (`--adjudicate`) and review (`--review`). Prompts are under
 `prompts/` with superseded versions retained.
